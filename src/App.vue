@@ -3,10 +3,10 @@
 
 <template>
   <v-app>
-    
+  <v-container>  
     <v-app-bar color="primary">
       <v-btn icon @click="console.log('back has been pressed')">
-        <v-icon>mdi-arrow-left</v-icon>
+        <v-btn icon="mdi-arrow-left"></v-btn>
       </v-btn>
       <v-toolbar-title>Annotation</v-toolbar-title>
     </v-app-bar>
@@ -30,6 +30,7 @@
       </v-btn>
 
     </v-bottom-navigation>
+  </v-container>
   </v-app>
 </template>
 
