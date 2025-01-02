@@ -3,7 +3,9 @@
 
 <template>
   <v-app>
-  <v-container>  
+  <v-container> 
+  <v-row justify="center">
+  <v-col cols="12" sm="8" md="4">
     <v-app-bar color="primary">
       <v-btn icon @click="console.log('back has been pressed')">
         <v-btn icon="mdi-arrow-left"></v-btn>
@@ -12,7 +14,6 @@
     </v-app-bar>
 
     <v-bottom-navigation>
-
       <v-btn value="Participant_1">
         <span>Participant 1</span>
       </v-btn>
@@ -30,6 +31,8 @@
       </v-btn>
 
     </v-bottom-navigation>
+  </v-col>
+  </v-row>
   </v-container>
   </v-app>
 </template>
